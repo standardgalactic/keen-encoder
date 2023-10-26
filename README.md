@@ -22,6 +22,6 @@ May not work on all systems.
 
 Uses [upper conscript registry](https://www.kreativekorp.com/ucsur/charts/sga.html) recommendations. Your operating system must have a font that supports displaying the unicode characters returned. That font must be used in the location you are viewing (terminal, code editor, web page) the results or must be installed on the system.
 
-See [candidates](./unicode.md) that can be substituted.
+Based on [keen-unicoder](https://github.com/dance-dance-banana-frenzy/keen-unicoder)
 
 View as [忄ᒷᒷㇼ](./README-keen.md).
