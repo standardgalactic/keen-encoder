@@ -1,4 +1,4 @@
-# keen-unicoder
+# keen-encoder
 
 Substitutes letters from lower-ascii character table to unicode representing the galactic standard alphabet found in Commander Keen.
 
@@ -10,13 +10,13 @@ Pass text to be translated as an argument.
 ```bash
 node index The quick brown fox jumps over the lazy brown dog.
 ```
-Displays `ㄱ⫧ᒷ ᑑ⸚¦าํ忄 ᕊ∷੭∴ㇼ 𝌂੭ꜘ ⁝⸚⟓!¡𠃑 ੭⫨ᒷ∷ ㄱ⫧ᒷ 𝄆ᖋՈ𝍡 ᕊ∷੭∴ㇼ ੮੭⫞._.`
+Displays `        .`
 
 # Unicode
 
-Not all characters  appear exactly as the galactic standard alphabet. After observing many languages, the characters that looked the closest to the original were chosen.
+May not work on all systems.
 
-Attempts were made to avoid tofu in the character selection. Your operating system must have a font that supports displaying the unicode characters returned. That font must be used in the location you are viewing (terminal, code editor, web page) the results.
+Uses [upper conscript registry](https://www.kreativekorp.com/ucsur/charts/sga.html) recommendations. Your operating system must have a font that supports displaying the unicode characters returned. That font must be used in the location you are viewing (terminal, code editor, web page) the results or must be installed on the system.
 
 See [candidates](./unicode.md) that can be substituted.
 
