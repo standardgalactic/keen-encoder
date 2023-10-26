@@ -10,7 +10,7 @@ Pass text to be translated as an argument.
 ```bash
 node index The quick brown fox jumps over the lazy brown dog.
 ```
-Displays `        .`
+Displays         .
 
 # Unicode
 
