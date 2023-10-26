@@ -12,10 +12,6 @@ node index The quick brown fox jumps over the lazy brown dog.
 ```
 Displays         .
 
-<p align="left">
-  <img src="text-sample.png" width="1000px"/>
-</p>
-
 # Unicode
 
 May not work on all systems.
