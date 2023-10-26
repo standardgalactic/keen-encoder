@@ -1,34 +1,4 @@
 const galacticStandardAlphabet = {
-  a: '',
-  b: '',
-  c: '',
-  d: '',
-  e: '',
-  f: '',
-  g: '',
-  h: '',
-  i: '',
-  j: '',
-  k: '',
-  l: '',
-  m: '',
-  n: '',
-  o: '',
-  p: '',
-  q: '',
-  r: '',
-  s: '',
-  t: '',
-  u: '',
-  v: '',
-  w: '',
-  x: '',
-  y: '',
-  z: '',
-}
-
-/*
-const galacticStandardAlphabet = {
   a: '\u158b', // CANADIAN SYLLABICS WEST-CREE RI
   b: '\u154a', // CANADIAN SYLLABICS WEST-CREE LO
   c: '\u0e32\u0e4d', // THAI CHARACTER SARA AA + THAI CHARACTER NIKHAHIT
@@ -58,8 +28,6 @@ const galacticStandardAlphabet = {
   z: '\u0548', // ARMENIAN CAPITAL LETTER VO
   ".": '._.'
 }
-
-*/
 
 const toGalacticStandardAlphabet = char =>
   galacticStandardAlphabet[char.toLowerCase()] || char;
