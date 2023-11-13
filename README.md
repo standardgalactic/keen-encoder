@@ -1,4 +1,4 @@
-# keen-encoder
+# sga-encoder
 
 Substitutes letters from lower-ascii character table to unicode representing the galactic standard alphabet found in Commander Keen.
 
