@@ -61,6 +61,8 @@ const galacticStandardAlphabet = {
 
 */
 
+const fs = require('fs');
+
 const toGalacticStandardAlphabet = char =>
   galacticStandardAlphabet[char.toLowerCase()] || char;
 
@@ -69,7 +71,21 @@ const translate = text => text
   .map(toGalacticStandardAlphabet)
   .join("");
 
+const filePath = 'input.txt';
+
+fs.readFile(filePath, 'utf8', (err, data) => {
+  if (err) {
+    console.error(`Error reading file: ${err}`);
+    return;
+  }
+  const gsa = translate(data);
+  console.log(gsa);
+});
+
+
+/*
 const [,,...args] = process.argv;
 const text = args.join(" ");
 const gsa = translate(text);
 console.log(gsa);
+*/
