@@ -166,4 +166,7 @@ const text = args.join(" ");
 const gsa = translate(text);
 console.log(gsa);
 */
+<<<<<<< HEAD
 >>>>>>> e7aa51eeab49e9224972441754da381ac99e5355
+=======
+>>>>>>> 704f9fedc00c322c36fc260dc6ed2b1c1105a2a3
